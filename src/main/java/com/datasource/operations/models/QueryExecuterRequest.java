@@ -5,7 +5,6 @@ public class QueryExecuterRequest {
     private String outputFormat;
     private String dataSource;
 
-
     public QueryExecuterRequest(String query, String outputFormat, String dataSource) {
         this.query = query;
         this.outputFormat = outputFormat;

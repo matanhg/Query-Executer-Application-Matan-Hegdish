@@ -24,7 +24,6 @@ public class MainController
    @Autowired
     OutputFormatService outputFormatService;
 
-
     @CrossOrigin
     @RequestMapping(value = "/executeQuery", method = RequestMethod.POST)
     public void executeQuery(@RequestBody QueryExecuterRequest queryExecuterRequest, HttpServletResponse response) throws IOException {

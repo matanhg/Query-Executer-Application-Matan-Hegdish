@@ -24,6 +24,4 @@ public class MultipleDBConfig {
         return DataSourceBuilder.create().build();
     }
 
-
-
 }

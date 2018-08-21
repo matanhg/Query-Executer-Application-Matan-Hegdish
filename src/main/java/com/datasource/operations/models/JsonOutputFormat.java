@@ -15,7 +15,6 @@ public class JsonOutputFormat extends OutputFormat {
         this.data = data;
     }
 
-
     @Override
     public void setOutput() throws IOException {
         httpServletResponse.setContentType("application/json;charset=UTF-8");
